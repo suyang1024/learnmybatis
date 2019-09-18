@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.StudentDao">
+    <insert id="insertStudent">
+        INSERT INTO t_student(name,age,score) VALUES (#{name},#{age},#{score})
+        <selectKey resultType="int" keyProperty="id" keyColumn="id" order="AFTER">
+            select @@identity
+        </selectKey>
+    </insert>
+
+    <delete id="deleteStudentById" parameterType="int">
+        delete from t_student where id=#{id}
+    </delete>
+
+    <update id="updateStudent">
+        update t_student set name=#{name}, age=#{age}, score=#{score} where id=#{id}
+    </update>
+    
+    <select id="selectAllStudents" resultType="student">
+        select id, name, age, score from t_student
+    </select>
+
+    <select id="selectStudentById" resultType="student">
+        select id, name, age, score from t_student where id = #{id}
+    </select>
+
+    <select id="selectStudentByKeyword" resultType="student">
+        select id, name, age, score from t_student where name like '%' #{keyword} '%'
+    </select>
+
+    <resultMap id="studentMapper" type="student">
+        <id property="id" column="id"/>
+        <result property="pwd" column="password"/>
+    </resultMap>
+
+    <select id="selectStudentPwd" resultMap="studentMapper">
+        select id, name, age, score, password from t_student where id = #{id}
+    </select>
+</mapper>

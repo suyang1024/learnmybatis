@@ -7,10 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_01firstmybatis" />
+        <module name="_02refactor" />
+        <module name="_03crudone" />
+        <module name="_04proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_01firstmybatis" target="1.8" />
+      <module name="_02refactor" target="1.8" />
+      <module name="_03crudone" target="1.8" />
+      <module name="_04proxy" target="1.8" />
       <module name="learnmybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

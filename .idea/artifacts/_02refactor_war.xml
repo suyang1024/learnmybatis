@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_02refactor:war">
+    <output-path>$PROJECT_DIR$/02-refactor/target</output-path>
+    <root id="archive" name="02-refactor.war">
+      <element id="artifact" artifact-name="_02refactor:war exploded" />
+    </root>
+  </artifact>
+</component>

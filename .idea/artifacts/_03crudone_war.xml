@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_03crudone:war">
+    <output-path>$PROJECT_DIR$/03-crudone/target</output-path>
+    <root id="archive" name="03-crudone.war">
+      <element id="artifact" artifact-name="_03crudone:war exploded" />
+    </root>
+  </artifact>
+</component>
