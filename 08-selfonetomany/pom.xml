@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>01-firstmybatis</artifactId>
+    <artifactId>08-selfonetomany</artifactId>
     <packaging>war</packaging>
 
-    <name>01-firstmybatis Maven Webapp</name>
+    <name>08-selfonetomany Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -20,6 +20,6 @@
     </dependencies>
 
     <build>
-        <finalName>01-firstmybatis</finalName>
+        <finalName>08-selfonetomany</finalName>
     </build>
 </project>

@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/05-dynamicsql/_05dynamicsql.iml" filepath="$PROJECT_DIR$/05-dynamicsql/_05dynamicsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-onetomany/_06onetomany.iml" filepath="$PROJECT_DIR$/06-onetomany/_06onetomany.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-manytoone/_07manytoone.iml" filepath="$PROJECT_DIR$/07-manytoone/_07manytoone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-selfonetomany/_08selfonetomany.iml" filepath="$PROJECT_DIR$/08-selfonetomany/_08selfonetomany.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnmybatis.iml" filepath="$PROJECT_DIR$/learnmybatis.iml" />
     </modules>
   </component>

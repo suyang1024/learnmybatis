@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_08selfonetomany:war">
+    <output-path>$PROJECT_DIR$/08-selfonetomany/target</output-path>
+    <root id="archive" name="08-selfonetomany.war">
+      <element id="artifact" artifact-name="_08selfonetomany:war exploded" />
+    </root>
+  </artifact>
+</component>

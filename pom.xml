@@ -15,6 +15,7 @@
       <module>05-dynamicsql</module>
       <module>06-onetomany</module>
       <module>07-manytoone</module>
+      <module>08-selfonetomany</module>
   </modules>
   <packaging>pom</packaging>
 
