@@ -10,6 +10,9 @@
         <module name="_02refactor" />
         <module name="_03crudone" />
         <module name="_04proxy" />
+        <module name="_05dynamicsql" />
+        <module name="_06onetomany" />
+        <module name="_07manytoone" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,9 @@
       <module name="_02refactor" target="1.8" />
       <module name="_03crudone" target="1.8" />
       <module name="_04proxy" target="1.8" />
+      <module name="_05dynamicsql" target="1.8" />
+      <module name="_06onetomany" target="1.8" />
+      <module name="_07manytoone" target="1.8" />
       <module name="learnmybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

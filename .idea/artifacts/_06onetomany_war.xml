@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_06onetomany:war">
+    <output-path>$PROJECT_DIR$/06-onetomany/target</output-path>
+    <root id="archive" name="06-onetomany.war">
+      <element id="artifact" artifact-name="_06onetomany:war exploded" />
+    </root>
+  </artifact>
+</component>

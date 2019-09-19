@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.TeamDao">
+
+	<resultMap id="teamMap" type="team">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<collection property="players" ofType="player">
+			<id column="pid" property="id"/>
+			<result column="pname" property="name"/>
+			<result column="tid" property="tid"/>
+		</collection>
+	</resultMap>
+
+    <select id="selectTeamById" resultMap="teamMap">
+        select t.id id, t.name name, p.id pid, p.name pname, p.tid tid
+        from t_team t left join t_player p on t.id = p.tid
+        where t.id = #{id}
+        order by id, pid
+    </select>
+
+</mapper>

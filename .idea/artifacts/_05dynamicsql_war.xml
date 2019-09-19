@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_05dynamicsql:war">
+    <output-path>$PROJECT_DIR$/05-dynamicsql/target</output-path>
+    <root id="archive" name="05-dynamicsql.war">
+      <element id="artifact" artifact-name="_05dynamicsql:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/02-refactor/_02refactor.iml" filepath="$PROJECT_DIR$/02-refactor/_02refactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-crudone/_03crudone.iml" filepath="$PROJECT_DIR$/03-crudone/_03crudone.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-proxy/_04proxy.iml" filepath="$PROJECT_DIR$/04-proxy/_04proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-dynamicsql/_05dynamicsql.iml" filepath="$PROJECT_DIR$/05-dynamicsql/_05dynamicsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-onetomany/_06onetomany.iml" filepath="$PROJECT_DIR$/06-onetomany/_06onetomany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-manytoone/_07manytoone.iml" filepath="$PROJECT_DIR$/07-manytoone/_07manytoone.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnmybatis.iml" filepath="$PROJECT_DIR$/learnmybatis.iml" />
     </modules>
   </component>

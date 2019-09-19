@@ -12,6 +12,9 @@
       <module>02-refactor</module>
       <module>03-crudone</module>
       <module>04-proxy</module>
+      <module>05-dynamicsql</module>
+      <module>06-onetomany</module>
+      <module>07-manytoone</module>
   </modules>
   <packaging>pom</packaging>
 

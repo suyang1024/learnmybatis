@@ -4,5 +4,8 @@
     <file url="file://$PROJECT_DIR$/02-refactor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-crudone" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-dynamicsql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-onetomany" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-manytoone" charset="UTF-8" />
   </component>
 </project>

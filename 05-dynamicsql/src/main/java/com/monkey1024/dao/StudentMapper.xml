@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.StudentDao">
+    <select id="selectIf" resultType="student">
+        select id, name, age, score from t_student
+        where 1=1
+        <if test="name != null and name != ''">
+            and name like '%' #{name} '%'
+        </if>
+        <if test="age > 0">
+            and age > #{age}
+        </if>
+    </select>
+
+    <select id="selectIf2" resultType="student">
+        select id, name, age, score from t_student
+        where 1=1
+        <if test="_name != null and _name != ''">
+            and name like '%' #{_name} '%'
+        </if>
+        <if test="_age > 0">
+            and age > #{_age}
+        </if>
+    </select>
+
+    <select id="selectWhere" resultType="student">
+        select id, name, age, score from t_student
+        <where>
+            <if test="name != null and name != ''">
+                name like '%' #{name} '%'
+            </if>
+            <if test="age > 0">
+                and age > #{age}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectChoose" resultType="student">
+        select id, name, age, score from t_student
+        <where>
+            <choose>
+                <when test="name != null and name != ''">
+                    name like '%' #{name} '%'
+                </when>
+                <when test="age > 0">
+                    age > #{age}
+                </when>
+                <otherwise>
+                    1 != 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="selectArray" resultType="student">
+        select id, name, age, score from t_student
+        <where>
+            <choose>
+                <when test="array != null and array.length>0">
+                    id in
+                    <foreach collection="array" open="(" close=")" separator="," item="id">
+                        #{id}
+                    </foreach>
+                </when>
+                <otherwise>
+                    1 = 2
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="selectList" resultType="student">
+        select id, name, age, score from t_student
+        <where>
+            <choose>
+                <when test="list != null and list.size>0">
+                    id in
+                    <foreach collection="list" open="(" close=")" separator="," item="id">
+                        #{id}
+                    </foreach>
+                </when>
+                <otherwise>
+                    1 = 2
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="selectListStudent" resultType="student">
+        select id, name, age, score from t_student
+        <where>
+            <choose>
+                <when test="list != null and list.size>0">
+                    id in
+                    <foreach collection="list" open="(" close=")" separator="," item="stu">
+                        #{stu.id}
+                    </foreach>
+                </when>
+                <otherwise>
+                    1 = 2
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+
+</mapper>
