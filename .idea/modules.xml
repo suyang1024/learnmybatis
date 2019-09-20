@@ -10,6 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/06-onetomany/_06onetomany.iml" filepath="$PROJECT_DIR$/06-onetomany/_06onetomany.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-manytoone/_07manytoone.iml" filepath="$PROJECT_DIR$/07-manytoone/_07manytoone.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-selfonetomany/_08selfonetomany.iml" filepath="$PROJECT_DIR$/08-selfonetomany/_08selfonetomany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-selfmanytoone/_09selfmanytoone.iml" filepath="$PROJECT_DIR$/09-selfmanytoone/_09selfmanytoone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-manytomany/_10manytomany.iml" filepath="$PROJECT_DIR$/10-manytomany/_10manytomany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-lazy/_11lazy.iml" filepath="$PROJECT_DIR$/11-lazy/_11lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-cache/_12cache.iml" filepath="$PROJECT_DIR$/12-cache/_12cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-secondlevelcache/_13secondlevelcache.iml" filepath="$PROJECT_DIR$/13-secondlevelcache/_13secondlevelcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnmybatis.iml" filepath="$PROJECT_DIR$/learnmybatis.iml" />
     </modules>
   </component>

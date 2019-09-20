@@ -16,6 +16,11 @@
       <module>06-onetomany</module>
       <module>07-manytoone</module>
       <module>08-selfonetomany</module>
+      <module>09-selfmanytoone</module>
+      <module>10-manytomany</module>
+      <module>11-lazy</module>
+      <module>12-cache</module>
+    <module>13-secondlevelcache</module>
   </modules>
   <packaging>pom</packaging>
 

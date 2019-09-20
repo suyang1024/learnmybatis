@@ -14,6 +14,11 @@
         <module name="_06onetomany" />
         <module name="_07manytoone" />
         <module name="_08selfonetomany" />
+        <module name="_09selfmanytoone" />
+        <module name="_10manytomany" />
+        <module name="_11lazy" />
+        <module name="_12cache" />
+        <module name="_13secondlevelcache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +30,11 @@
       <module name="_06onetomany" target="1.8" />
       <module name="_07manytoone" target="1.8" />
       <module name="_08selfonetomany" target="1.8" />
+      <module name="_09selfmanytoone" target="1.8" />
+      <module name="_10manytomany" target="1.8" />
+      <module name="_11lazy" target="1.8" />
+      <module name="_12cache" target="1.8" />
+      <module name="_13secondlevelcache" target="1.8" />
       <module name="learnmybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

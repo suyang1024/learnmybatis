@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_10manytomany:war">
+    <output-path>$PROJECT_DIR$/10-manytomany/target</output-path>
+    <root id="archive" name="10-manytomany.war">
+      <element id="artifact" artifact-name="_10manytomany:war exploded" />
+    </root>
+  </artifact>
+</component>

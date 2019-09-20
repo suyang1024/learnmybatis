@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.TeamDao">
+
+	<select id="selectPlayersByTid" resultType="player">
+		select id, name, tid from t_player where tid = #{id}
+	</select>
+
+	<resultMap id="teamMap" type="team">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<collection property="players" ofType="player" select="selectPlayersByTid" column="id"/>
+	</resultMap>
+
+	<select id="selectTeamByIdAlone" resultMap="teamMap">
+		select id, name from t_team where id = #{id}
+	</select>
+
+</mapper>

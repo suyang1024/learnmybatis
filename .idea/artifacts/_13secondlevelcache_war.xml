@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_13secondlevelcache:war">
+    <output-path>$PROJECT_DIR$/13-secondlevelcache/target</output-path>
+    <root id="archive" name="13-secondlevelcache.war">
+      <element id="artifact" artifact-name="_13secondlevelcache:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_09selfmanytoone:war">
+    <output-path>$PROJECT_DIR$/09-selfmanytoone/target</output-path>
+    <root id="archive" name="09-selfmanytoone.war">
+      <element id="artifact" artifact-name="_09selfmanytoone:war exploded" />
+    </root>
+  </artifact>
+</component>
